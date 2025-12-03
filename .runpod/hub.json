@@ -1,0 +1,13 @@
+{
+  "entrypoint": ["python3", "api_server.py"],
+  "ports": {
+    "7860/tcp": {
+      "name": "web",
+      "ingress": "https"
+    }
+  },
+  "env": {
+    "PYTHONUNBUFFERED": "1",
+    "PYTHONPATH": "/app"
+  }
+}

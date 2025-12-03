@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "classify_prompt_test",
+      "input": {
+        "endpoint": "/classify",
+        "body": {
+          "prompt": "tell me what task this is"
+        }
+      },
+      "timeout": 200000
+    }
+  ]
+}

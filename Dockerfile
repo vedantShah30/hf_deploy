@@ -25,4 +25,4 @@ EXPOSE 7860
 ENV PYTHONPATH="/app"
 
 # Start the Flask API server
-CMD ["python3", "api_server.py"]
+CMD ["python3", "-u", "handler.py"]
