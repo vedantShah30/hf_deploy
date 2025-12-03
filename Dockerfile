@@ -17,7 +17,6 @@ ENV PIP_DEFAULT_TIMEOUT=3600
 ENV PIP_NO_CACHE_DIR=1
 
 # Install GPU-enabled PyTorch and Python deps
-RUN pip3 install torch --index-url https://download.pytorch.org/whl/cu121
 RUN pip3 install -r requirements_api.txt
 
 # Expose the Flask port
